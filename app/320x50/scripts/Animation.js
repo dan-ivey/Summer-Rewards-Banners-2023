@@ -28,8 +28,8 @@ app.Animation = (function () {
 		// DO NOT EDIT: reveals banner once loaded
 		t.set(banner, {opacity:1});
 
-	t.to(cta, .5, {delay:5, scale:1.06, opacity:1, ease:Sine.easeOut});
-	t.to(cta, .5, {delay:5.5, scale:1, opacity:1, onComplete:buttonGo, ease:Sine.easeIn});
+	t.to(cta, .5, {delay:3.75, scale:1.06, opacity:1, ease:Sine.easeOut});
+	t.to(cta, .5, {delay:4.25, scale:1, opacity:1, onComplete:buttonGo, ease:Sine.easeIn});
 		tl1.to(cta, .25, {scale:1.06, force3D:false, ease:Sine.easeOut})
 		.to(cta, .25, {scale:1, force3D:false, ease:Sine.easeIn});
 
